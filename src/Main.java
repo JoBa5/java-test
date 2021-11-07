@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-//        int liczba = 5;
-//        int liczba2 = 2;
+        int liczba = 5;
+        int liczba2 = 2;
 //        System.out.println("Hello word" + liczba);
 //
 //
@@ -32,6 +32,15 @@ public class Main {
         System.out.println(witaj);
         Character.isDigit(a);
         System.out.println(Character.isDigit(a));
+
+        if (liczba>liczba2 & liczba2==liczba){
+            System.out.println("SystemDziala");
+        }else{
+            System.out.println("SystemNieDziala");
+            if (liczba==liczba2){
+                System.out.println("SystemDziala1");
+            }
+        }
 
 
     }
