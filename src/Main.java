@@ -43,14 +43,23 @@ public class Main {
 //                System.out.println("SystemDziala1");
 //            }
 //        }
+//
+//        Scanner skaner = new Scanner(System.in);
+//        System.out.println("Wpisz swoje imie");
+//        String userInputName = skaner.nextLine();
+//        System.out.println("Wpisz swoje nazwisko");
+//        String userInputSurname = skaner.nextLine();
+//        System.out.println("Witaj" + userInputName + " " + userInputSurname + "!");
 
-        Scanner skaner = new Scanner(System.in);
-        System.out.println("Wpisz swoje imie");
-        String userInputName = skaner.nextLine();
-        System.out.println("Wpisz swoje nazwisko");
-        String userInputSurname = skaner.nextLine();
-        System.out.println("Witaj" + userInputName + " " + userInputSurname + "!");
-
-
+        int number = 3;
+        int number2;
+        System.out.println(number++);
+        System.out.println(++number);
+        System.out.println(number);
+        number2 = number++;
+        System.out.println(number2);
+        number2 = ++number;
+        System.out.println(number2);
+        System.out.println(++number2);
     }
 }
